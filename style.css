@@ -1,0 +1,66 @@
+
+         *{
+            margin: 0;
+            padding: 0;
+         }
+         @font-face {
+            font-family: Zona Pro;
+            src: url(zona-pro-bold.otf);
+         }
+            .fundo{
+            background-image: linear-gradient(45deg, #616D7E, #6C7A89 );
+            height: 100vh;
+            color: whitesmoke;
+            font-family: 'Zona Pro', sans-serif;
+            text-align: center;
+         }
+        .calculadora{
+        position: absolute;
+        background-color: #99abbf;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        padding: 15px;
+        font-family:'Zona pro', sans-serif;
+        }
+        .botao{
+            background-image: radial-gradient(circle,#3B3838, #3B3838, #4D4A4A, #5C5858);
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
+            border-radius: 50%;
+            font-family: 'Zona Pro', sans-serif;
+            border: none;
+            color: whitesmoke;
+            text-align: center;
+        }
+        .botao:hover{
+            background: black;
+        }
+        .botao-operacao:hover{
+          background: #EE6911;
+        }
+       
+        .botao-operacao{
+            background-image: radial-gradient(circle,#F2873F, #F49F66);
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
+            border-radius: 50%;
+            font-family: 'Zona Pro', sans-serif;
+            border: none;
+            color: whitesmoke;
+            text-align: center;
+        }
+        #resultado{
+            background-color: whitesmoke;
+            width: 190px;
+            height: 30px;
+            margin: 10px;
+            font-size: 30px;
+            color: #3B3838;
+            text-align: right;
+            
+        }
+       
